@@ -1,0 +1,13 @@
+nav li a {
+    transition: background .3s;
+
+    &:hover {
+      background: $primary-color;
+      border-radius: 3px;
+    }
+
+    &:focus {
+      background: $secondary-color;
+      border-radius: 3px;
+    }
+} 

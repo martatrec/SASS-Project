@@ -1,0 +1,13 @@
+@mixin title-line($color) {
+    border: 0;
+    border-top: 4px solid $color;
+    margin-left: 0;
+    margin-top: 10px;
+    width: 60px;
+}
+
+@mixin align-item($x, $y) {
+  display: flex;
+  justify-content: $x;
+  align-items: $y;
+}
